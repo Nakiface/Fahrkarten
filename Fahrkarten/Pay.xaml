@@ -7,22 +7,22 @@
         mc:Ignorable="d"
         Title="Pay" Height="241" Width="557">
     <Grid Margin="0,0,0,5">
-        <Button x:Name="Button1000" Content="" HorizontalAlignment="Left" Margin="24,86,0,0" VerticalAlignment="Top" Width="126" Height="69">
+        <Button x:Name="Button1000" Content="" HorizontalAlignment="Left" Margin="236,32,0,0" VerticalAlignment="Top" Width="104" Height="62">
             <Button.Background>
                 <ImageBrush ImageSource="/10euro.jpg"/>
             </Button.Background>
         </Button>
-        <Button x:Name="Button500" Content="" HorizontalAlignment="Left" Margin="198,86,0,0" VerticalAlignment="Top" Height="69" Width="112">
+        <Button x:Name="Button500" Content="" HorizontalAlignment="Left" Margin="354,32,0,0" VerticalAlignment="Top" Height="60" Width="112">
             <Button.Background>
                 <ImageBrush ImageSource="/5euro.jpg"/>
             </Button.Background>
         </Button>
-        <Button x:Name="Button200" Content="" HorizontalAlignment="Left" Margin="352,86,0,0" VerticalAlignment="Top" Height="69" Width="69">
+        <Button x:Name="Button200" Content="" HorizontalAlignment="Left" Margin="19,124,0,0" VerticalAlignment="Top" Height="68" Width="69">
             <Button.Background>
                 <ImageBrush ImageSource="/2Euro.jpg"/>
             </Button.Background>
         </Button>
-        <Button x:Name="Button100" Content="" HorizontalAlignment="Left" Margin="453,87,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Width="69" Height="69">
+        <Button x:Name="Button100" Content="" HorizontalAlignment="Left" Margin="132,124,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Width="69" Height="69">
             <Button.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -33,6 +33,26 @@
             </Button.RenderTransform>
             <Button.Background>
                 <ImageBrush ImageSource="/1Euro.jpg"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="Button2000" Content="" HorizontalAlignment="Left" Margin="94,31,0,0" VerticalAlignment="Top" Width="128" Height="71">
+            <Button.Background>
+                <ImageBrush ImageSource="/20euro.jpg"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="Button50" Content="" HorizontalAlignment="Center" Margin="0,124,0,0" VerticalAlignment="Top" Height="70" Width="74">
+            <Button.Background>
+                <ImageBrush ImageSource="/50cent.jpg"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="Button20" Content="" HorizontalAlignment="Left" Margin="348,124,0,0" VerticalAlignment="Top" Height="70" Width="76">
+            <Button.Background>
+                <ImageBrush ImageSource="/20cent.jpg"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="Button10" Content="" HorizontalAlignment="Left" Margin="448,124,0,0" VerticalAlignment="Top" Height="70" Width="85">
+            <Button.Background>
+                <ImageBrush ImageSource="/10cent.jpg"/>
             </Button.Background>
         </Button>
 
