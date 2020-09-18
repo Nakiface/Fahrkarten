@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="10euro.jpg" />
+    <None Remove="1Euro.jpg" />
+    <None Remove="240px-Add.svg.png" />
+    <None Remove="2Euro.jpg" />
+    <None Remove="5euro.jpg" />
+    <None Remove="Add.svg" />
+    <None Remove="pay.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="10euro.jpg" />
+    <Resource Include="1Euro.jpg" />
+    <Resource Include="240px-Add.svg.png" />
+    <Resource Include="2Euro.jpg" />
+    <Resource Include="5euro.jpg" />
+    <Resource Include="Add.svg" />
+    <Resource Include="pay.png" />
+  </ItemGroup>
+
+</Project>
